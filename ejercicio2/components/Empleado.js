@@ -13,7 +13,7 @@ function Empleado({item}) {
         <Text style={styles.bold}>Salario: </Text><Text>${salario}</Text>
       </View>
       <View style={styles.contenedorTextoFila}>
-        <Text style={styles.bold}>Próximo: </Text><Text>${salarioProximoAño}</Text>
+        <Text style={styles.bold}>Salario total: </Text><Text>${salarioProximoAño}</Text>
       </View>
     </View>
     <View style={styles.contenedorTexto}>
@@ -21,7 +21,7 @@ function Empleado({item}) {
         <Text style={styles.bold}>{categoria}</Text>
       </View>
       <View style={styles.contenedorTextoFila}>
-        <Text style={styles.bold}>Años:</Text><Text> {año}</Text>
+        <Text style={styles.bold}>Años trabajados:</Text><Text> {año}</Text>
       </View>
     </View>
    </View>
